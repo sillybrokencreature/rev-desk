@@ -14,8 +14,8 @@ import { FuseV1Options, FuseVersion } from "@electron/fuses";
 
 const STRINGS = {
   author: "Revolt Platforms LTD",
-  name: "Stoat",
-  execName: "stoat-desktop",
+  name: "Nova Chat",
+  execName: "nova-chat-desktop",
   description: "Open source user-first chat platform.",
 };
 

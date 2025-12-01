@@ -13,7 +13,7 @@ export async function initDiscordRpc() {
 
     rpc.on("ready", () =>
       rpc.setActivity({
-        state: "stoat.chat",
+        state: "nova.chat",
         details: "Chatting with others",
         largeImageKey: "qr",
         // largeImageText: "Communication is critical – use Revolt.",

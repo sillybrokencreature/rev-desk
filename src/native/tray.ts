@@ -25,7 +25,7 @@ export function initTray() {
   const trayIcon = createTrayIcon();
   tray = new Tray(trayIcon);
   updateTrayMenu();
-  tray.setToolTip("Stoat for Desktop");
+  tray.setToolTip("Nova Chat - Personal Fork");
   tray.setImage(trayIcon);
   tray.on("click", () => {
     mainWindow.show();
@@ -36,7 +36,7 @@ export function initTray() {
 export function updateTrayMenu() {
   tray.setContextMenu(
     Menu.buildFromTemplate([
-      { label: "Stoat for Desktop", type: "normal", enabled: false },
+      { label: "Nova Chat - Personal Fork", type: "normal", enabled: false },
       {
         label: "Version",
         type: "submenu",

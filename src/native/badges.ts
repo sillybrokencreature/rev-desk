@@ -48,7 +48,7 @@ export async function setBadgeCount(count: number) {
         body: [
           process.env.container === "1"
             ? "application://chat.stoat.stoat-desktop.desktop" // flatpak handling
-            : "application://stoat-desktop.desktop",
+            : "application://nova-chat-desktop.desktop",
           [
             ["count", ["x", Math.min(count, 0)]],
             ["count-visible", ["b", count !== 0]],
